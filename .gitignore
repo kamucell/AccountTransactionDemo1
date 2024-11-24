@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BankAccountManagementSystem
+/BankAccountManagementSystem/.vs
+/BankAccountManagementSystem/bin/Debug
+/BankAccountManagementSystem/obj/Debug
+/BankAccountManagementSystem.Tests/bin/Debug
+/BankAccountManagementSystem.Tests/obj/Debug
+/packages
