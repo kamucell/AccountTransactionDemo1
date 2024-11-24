@@ -55,13 +55,13 @@
     <Compile Include="TransactionAuditTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BankAccountManagementSystem\BankAccountManagementSystem.csproj">
-      <Project>{594F48FD-7CD0-470A-A3F5-48A231D5EDA2}</Project>
-      <Name>GunvorAssessment</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\BankAccountManagementSystem\BankAccountManagementSystem.csproj">
+      <Project>{594f48fd-7cd0-470a-a3f5-48a231d5eda2}</Project>
+      <Name>BankAccountManagementSystem</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

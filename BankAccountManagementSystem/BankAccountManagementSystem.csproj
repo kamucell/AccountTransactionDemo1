@@ -51,7 +51,7 @@
     <Compile Include="Exceptions\AmountmoreThanBalance.cs" />
     <Compile Include="Exceptions\ExceedOverDraftLimit.cs" />
     <Compile Include="Exceptions\AmountLessThanZero.cs" />
-    <Compile Include="Exceptions\GunvorAssessmentException.cs" />
+    <Compile Include="Exceptions\BankAccountManagementSystemException.cs" />
     <Compile Include="GlobalFactory.cs" />
     <Compile Include="Audit\Transaction.cs" />
     <Compile Include="Audit\TransactionType.cs" />
