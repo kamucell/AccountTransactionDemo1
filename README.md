@@ -25,7 +25,7 @@ A robust and scalable system for managing **Current Accounts** and **Savings Acc
 ## Technologies
 - **Language**: C#
 - **Framework**: .NET
-- **Design Patterns**: Dependency Injection, Factory Pattern
+- **Design Patterns**: Dependency Injection, Factory Pattern, Singleton pattern
 - **Testing**: NUnit/xUnit/MSTest
 - **Thread Safety**: `lock`, `ConcurrentDictionary`
 
