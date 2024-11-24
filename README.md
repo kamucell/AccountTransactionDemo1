@@ -40,18 +40,3 @@ A robust and scalable system for managing **Current Accounts** and **Savings Acc
    ```bash
    git clone https://github.com/kamucell/KamuAccountTransactionDemo1
 
-### Project Structure
-├── src
-│   ├── GlobalFactory.cs
-│   ├── Account
-│   │   ├── BaseAccount.cs
-│   │   ├── CurrentAccount.cs
-│   │   ├── SavingsAccount.cs
-│   ├── LockDownManager.cs
-│   ├── TransactionAudit.cs
-│   ├── IDateService.cs
-│   ├── DateService.cs
-├── tests
-│   ├── AccountTests.cs
-│   ├── LockDownManagerTests.cs
-│   ├── TransactionAuditTests.cs
