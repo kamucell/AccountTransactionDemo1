@@ -5,7 +5,7 @@ using BankAccountManagementSystem.Exceptions;
 using BankAccountManagementSystem.LockDown;
 using NUnit.Framework;
 
-namespace GunvorAssessmentTests
+namespace BankAccountManagementSystemTests
 {
 	/// <summary>
 	/// This class contains all the Unit Tests related to LockDown management

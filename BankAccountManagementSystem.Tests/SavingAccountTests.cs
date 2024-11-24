@@ -4,7 +4,7 @@ using BankAccountManagementSystem.Account;
 using BankAccountManagementSystem.Exceptions;
 using NUnit.Framework;
 
-namespace GunvorAssessmentTests
+namespace BankAccountManagementSystemTests
 {
 	/// <summary>
 	/// This class contains all the Unit Tests related to SAVING Account
