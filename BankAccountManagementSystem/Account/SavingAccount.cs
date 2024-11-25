@@ -12,10 +12,8 @@ namespace BankAccountManagementSystem.Account
     {
         public SavingAccount(int accountNumber) : base(accountNumber)
         {
-
         }
-
-        public async Task<bool> IsBalanceLessThanZero(decimal requestedAmount) => (_balance- requestedAmount <= 0);
+        public async Task<bool> IsBalanceLessThanZero(decimal requestedAmount) => (_balance- requestedAmount < 0);
         public async Task<bool> IsAmountMoreThanBalance(decimal requestedAmount) => (requestedAmount > (base._balance*(decimal).10));
         public override async Task WithdrawAsync(decimal amount)
         {
